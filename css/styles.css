@@ -303,6 +303,7 @@ text-align: left;
 .icon-item {
     width: 40px;
     height: 40px;
+    border-radius: %50;
 }
 .icon-link {
     width: 100%;
@@ -311,7 +312,8 @@ text-align: left;
     border-radius: %50;
     display: flex;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .icon-link:hover {
     background-color: #404bbf;
@@ -336,8 +338,13 @@ text-align: left;
 .our-portfolio-list {
     flex-basis: calc((100% - 72px) / 4);
     flex: 1; 
-    background-color: #ffffff; 
+    background-color: #ffffff;
+    box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
+.our-portfolio-list:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .our-portfolio-box {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -347,6 +354,11 @@ text-align: left;
 
 .left-our-portfolio {
     text-align: left;
+}
+.banking-img {
+    position: relative;
+    overflow: hidden;
+
 }
  /* ==========FOOTER BÖLÜMÜ============ */
 
