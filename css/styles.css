@@ -75,6 +75,7 @@
     flex-direction: column;
     display: flex;
     align-items: baseline;
+    
 }
 
         /* ===NAV BÖLÜMÜ=== */
@@ -139,7 +140,7 @@
 .communication {
     font-style: normal;
     display: flex;
-    justify-content: end;
+   
 }
 .mail-phone {
     font-size: 16px;
@@ -158,6 +159,7 @@
 .address-ul {
     display: flex;
     gap: 40px;
+
 }
 
 /* ==========MAİN BÖLÜMÜ============ */
